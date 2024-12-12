@@ -54,8 +54,7 @@ Data collection from live traffic using Suricata.
 Preprocessing of network traffic data for machine learning.
 
 Anomaly detection using autoencoder reconstruction errors.
-
-Results and Analysis
+**Results and Analysis**
 
 The trained model's performance is evaluated using:
 
@@ -63,7 +62,7 @@ ROC Curve: Visualizes the trade-off between sensitivity and specificity.
 
 Precision-Recall Curve: Highlights model precision and recall for different thresholds.
 
-Future Work
+**Future Work**
 
 Potential improvements and extensions include:
 
@@ -73,7 +72,7 @@ Exploring alternative architectures like variational autoencoders.
 
 Collecting more diverse datasets to enhance model generalization.
 
-Contributions
+**Contributions**
 
 Feel free to fork this repository and submit pull requests for any improvements or bug fixes.
 
