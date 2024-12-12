@@ -10,20 +10,20 @@ Follow these steps to set up and run the project:
 
 **1. Clone the Repository**
 
-git clone <repository-url>
-cd <repository-name>
+_git clone <repository-url>
+cd <repository-name>_
 
 **2. Install Dependencies**
 
 Ensure you have Python installed. Install the required packages using:
 
-pip install -r requirements.txt
+_pip install -r requirements.txt_
 
 **3. Collect Training Data**
 
 Run the script suracataIntegration.py to collect network traffic data for training:
 
-python suracataIntegration.py
+_python suracataIntegration.py_
 
 This script uses Suricata to capture packets and convert them into a CSV format for training.
 
@@ -31,7 +31,7 @@ This script uses Suricata to capture packets and convert them into a CSV format 
 
 Before running the training script, update the file paths in encoder6.py to point to your collected dataset. Then execute:
 
-python encoder6.py
+_python encoder6.py_
 
 This script trains the autoencoder model and saves the results for further analysis.
 
